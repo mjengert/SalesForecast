@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Setup & Installation](#setup--installation)
+- [Setup & Installation](#setup)
 - [Contributors](#contributors)
 
 ## Project Overview
