@@ -20,7 +20,7 @@ cd SalesForecast
 
 2. **Install Required Packages**
 ```bash
-pip install pandas>=1.5.0 numpy>=1.23.0 matplotlib>=3.6.0 scikit-learn>=1.2.0
+pip install "pandas>=1.5.0" "numpy>=1.23.0" "matplotlib>=3.6.0" "scikit-learn>=1.2.0"
 ```
 
 3. **Download Dataset from Kaggle**
