@@ -16,11 +16,12 @@ SalesForecast is an advanced machine learning solution designed to tackle the ch
 ```bash
 git clone https://github.com/mjengert/SalesForecast.git
 cd SalesForecast
+cd src
 ```
 
 2. **Install Required Packages**
 ```bash
-pip install pandas>=1.5.0 numpy>=1.23.0 matplotlib>=3.6.0 scikit-learn>=1.2.0
+pip install "pandas>=1.5.0" "numpy>=1.23.0" "matplotlib>=3.6.0" "scikit-learn>=1.2.0"
 ```
 
 3. **Download Dataset from Kaggle**
@@ -28,9 +29,8 @@ pip install pandas>=1.5.0 numpy>=1.23.0 matplotlib>=3.6.0 scikit-learn>=1.2.0
 kaggle competitions download -c store-sales-time-series-forecasting
 ```
 
-4. **Unzip Dataset**
 ```bash
-unzip store-sales-time-series-forecasting.zip
+unzip store-sales-time-series-forecasting.zip -d store-sales-time-series-forecasting
 ```
 
 5. **Run Model Notebook**
